@@ -1,7 +1,15 @@
+
+GET http://localhost:8000
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWJoaW5hdiIsImFkbWluIjp0cnVlLCJpYXQiOjE2NjM2MTc4NDZ9.fFHl7fci91bRrP0DmXrFk0x_l3JqFk-jrNxpVf4ADRo
+# Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWJoaW5hdiIsImFkbWluIjp0cnVlLCJpYXQiOjE2NjM2MTc2MzB9.RhF0A4wlLB4MyHW_6qFyr3L-nKGQoR3cdLhgQwkB2CA
+
+##
+
 POST http://localhost:8000/login
 Content-Type: application/json
 
-{
+
+    {
     "name":"Abhinav",
     "password":"realjod"
-}
+    }
